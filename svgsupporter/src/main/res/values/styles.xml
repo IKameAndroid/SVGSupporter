@@ -1,0 +1,9 @@
+<resources>
+
+
+
+    <declare-styleable name="SVGImageView">
+        <attr name="vector" format="reference" />
+    </declare-styleable>
+
+</resources>

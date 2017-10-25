@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@android:color/black"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+
+
+        <com.example.svgsupporter.richpath.SVGImageView
+            android:id="@+id/ic_command"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:onClick="animateCommand"
+            app:vector="@drawable/ic_command" />
+
+        <com.example.svgsupporter.richpath.SVGImageView
+            android:id="@+id/animal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:onClick="animateAnimal"
+            app:vector="@drawable/animal" />
+
+
+
+        <com.example.svgsupporter.richpath.SVGImageView
+            android:id="@+id/love_face"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:onClick="animateLoveFace"
+            app:vector="@drawable/face_love" />
+
+        <com.example.svgsupporter.richpath.SVGImageView
+            android:id="@+id/ic_android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:onClick="animateAndroid"
+            app:vector="@drawable/ic_android" />
+
+        <com.example.svgsupporter.richpath.SVGImageView
+            android:id="@+id/arrow_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:onClick="animateArrowToSearch"
+            app:vector="@drawable/ic_arrow_search" />
+
+        <com.example.svgsupporter.richpath.SVGImageView
+            android:id="@+id/ic_check_playlist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:onClick="animatePlaylistAddCheck"
+            app:vector="@drawable/ic_playlist_add_check" />
+
+        <com.example.svgsupporter.richpath.SVGImageView
+            android:id="@+id/ic_notifications"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:padding="8dp"
+            android:onClick="animateNotification"
+            app:vector="@drawable/ic_notifications" />
+
+
+
+
+
+
+
+    </LinearLayout>
+</ScrollView>
